@@ -1,2 +1,7 @@
 flake8
 pytest
+pandas
+scikit-learn
+xgboost
+joblib
+
