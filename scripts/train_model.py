@@ -4,6 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
 import joblib
 
+
 def main():
     # Create dummy data
     data = {
@@ -24,6 +25,7 @@ def main():
     print(classification_report(y_test, preds))
 
     joblib.dump(model, 'models/fraud_model_xgb.pkl')
+    
 
 if __name__ == '__main__':
     main()
