@@ -25,9 +25,4 @@ jobs:
       - name: Run tests with pytest
         run: |
           pytest tests/
-      - name: Train ML model
-        run: |
-          python scripts/train_model.py
-      - name: Build Docker image
-        run: |
-          docker build -t fraud-detection-app:latest .
+   
