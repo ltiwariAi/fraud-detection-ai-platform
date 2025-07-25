@@ -57,3 +57,4 @@ Thumbs.db
 #Add secret file to be excluded from push to github
 gcp-bq-key.json
 
+gcp-bq-key.json
