@@ -54,3 +54,6 @@ Thumbs.db
 
 # Notebook metadata
 *.nbconvert.ipynb
+#Add secret file to be excluded from push to github
+gcp-bq-key.json
+
