@@ -58,3 +58,4 @@ Thumbs.db
 gcp-bq-key.json
 
 gcp-bq-key.json
+.venv*
